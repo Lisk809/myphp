@@ -1,0 +1,14 @@
+{
+  "name": "myphp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lisk809/myphp",
+  "author": "Lisk <liskqwq@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@vercel/node": "^3.0.1",
+    "less": "^4.2.0",
+    "typescript": "^5.1.6",
+    "vitepress": "^1.0.0-rc.4"
+  }
+}
