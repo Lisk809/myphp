@@ -1,7 +1,5 @@
 import { VercelRequest, VercelResponse } from "@vercel/node";
+import {datas} from "./reptile"
 module.exports = async (req: VercelRequest, res: VercelResponse) => {
-  const data = {
-    msg: "hello world!",
-  };
-  res.status(200).json(data);
+  res.status(200).json(await datas);
 };
